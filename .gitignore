@@ -1,9 +1,5 @@
-brif/*
-brif/Бриф_учебного_кейса__Модель_прогнозирования_стоимости_жилья_для_агентства_недвижимости_.pdf
 data/data.csv.zip
 data/data.csv/data.csv
 data/cleaned_data.csv
 data/data_model.csv
 data/data_normolized.csv
-EDA-2-data analysis.ipynb
-Modeling.ipynb
