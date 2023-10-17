@@ -10,25 +10,15 @@
 * разработать небольшой веб-сервис, принимающий данные об объекте, возвращающих прогноз стоимости.
 
 
-**Метрика качества**
-- Выполнены цели проекта
-- Соблюдены и выполнены все этапы проекта, представлены обоснования и графики
-- Решение размещено на Git hub
-- Выполнен тестовый сабмит на вебсервер
-
 <p><span id="TOC"></span></p>
 
 ## **ОГЛАВЛЕНИЕ**
-<p> <a href="#1">1.ИНФОРМАЦИЯ О ДАННЫХ</a></p>
-<p> <a href="#2">2.ЭТАПЫ РАБОТЫ НАД ПРОЕКТОМ</a></p>
-<p> <a href="#3">3.РЕЗУЛЬТАТЫ</a></p>
-<p> <a href="#4">4.КОДИРОВАНИЕ ПРИЗНАКОВ</a></p>
-<p> <a href="#5">5.МОДЕЛИРОВАНИЕ</a></p>
-<p> <a href="#6">6.ПРОДАКТ</a></p>
+<p> <a href="#1">1.Информация о проекте и данных</a></p>
+<p> <a href="#2">2.Этапы работы над проектом</a></p>
+<p> <a href="#3">3.Результаты</a></p>
 
 
-
-### <p><span id="#1">1.ИНФОРМАЦИЯ О ДАННЫХ</span></p>
+### <p><span id="#1">1.Информация о проекте и данных</span></p>
 
 #### Краткая информация о данных:
 
@@ -43,26 +33,26 @@
     * [requirements.txt](https://github.com/CheshirSml/forecasting_the_cost_of_housing/blob/main/web/test/requirements.txt)
 
 **Описание данных:**  
-* <span style=background-color:#D3D3D3>'status'</span> — статус продажи;  
-* <span style=background-color:#D3D3D3>'private pool'</span> и <span style=background-color:#D3D3D3>'PrivatePool'</span> — наличие собственного бассейна;  
-* <span style=background-color:#D3D3D3>'propertyType'</span> — тип объекта недвижимости;  
-* <span style=background-color:#D3D3D3>'street'</span> — адрес объекта;  
-* <span style=background-color:#D3D3D3>'baths'</span> — количество ванных комнат;  
-* <span style=background-color:#D3D3D3>'homeFacts'</span> — сведения о строительстве объекта (содержит несколько типов сведений, влияющих на оценку объекта);  
-* <span style=background-color:#D3D3D3>'fireplace'</span> — наличие камина;  
-* <span style=background-color:#D3D3D3>'city'</span> — город;  
-* <span style=background-color:#D3D3D3>'schools'</span> — сведения о школах в районе;  
-* <span style=background-color:#D3D3D3>'sqft'</span> — площадь в футах;  
-* <span style=background-color:#D3D3D3>'zipcode'</span> — почтовый индекс;  
-* <span style=background-color:#D3D3D3>'beds'</span> — количество спален;  
-* <span style=background-color:#D3D3D3>'state'</span> — штат;  
-* <span style=background-color:#D3D3D3>'stories'</span> — количество этажей;  
-* <span style=background-color:#D3D3D3>'mls-id'</span> и <span style=background-color:#D3D3D3>'MlsId'</span> — идентификатор MLS (Multiple Listing Service, система мультилистинга);  
-* <span style=background-color:#D3D3D3>'target'</span> — цена объекта недвижимости (**целевой признак, который необходимо спрогнозировать**).
+* *'status'* — статус продажи;  
+* *'private pool'* и *'PrivatePool'* — наличие собственного бассейна;  
+* *'propertyType'* — тип объекта недвижимости;  
+* *'street'* — адрес объекта;  
+* *'baths'* — количество ванных комнат;  
+* *'homeFacts'* — сведения о строительстве объекта (содержит несколько типов сведений, влияющих на оценку объекта);  
+* *'fireplace'* — наличие камина;  
+* *'city'* — город;  
+* *'schools'* — сведения о школах в районе;  
+* *'sqft'* — площадь в футах;  
+* *'zipcode'* — почтовый индекс;  
+* *'beds'* — количество спален;  
+* *'state'* — штат;  
+* *'stories'* — количество этажей;  
+* *'mls-id'* и *'MlsId'* — идентификатор MLS (Multiple Listing Service, система мультилистинга);  
+* *'target'* — цена объекта недвижимости (**целевой признак, который необходимо спрогнозировать**).
 
 <p> <a href="#TOC">ОГЛАВЛЕНИЕ</a></p>
 
-### <p><span id="#2">2.ЭТАПЫ РАБОТЫ НАД ПРОЕКТОМ</span></p>
+### <p><span id="#2">2.Этапы работы над проектом</span></p>
 
 1. Произведена отчистка данных от выбросов и пустых значений, преобразованы признаки.
 2. Произведена оценка значимости признаков, сформированны новые признаки.
@@ -74,8 +64,8 @@
 
 <p> <a href="#TOC">ОГЛАВЛЕНИЕ</a></p>
 
-### <p><span id="#3">3.РЕЗУЛЬТАТЫ</span></p>
+### <p><span id="#3">3.Результаты</span></p>
 
 В результате выполнения проекта построенна модель CatBoostRegressor оптимально подходящая под решение поставленной задачи.
 
-
+<p> <a href="#TOC">ОГЛАВЛЕНИЕ</a></p>
