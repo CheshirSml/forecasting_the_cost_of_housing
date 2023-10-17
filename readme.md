@@ -1,4 +1,4 @@
-# [ДИПЛОМНЫЙ ПРОЕКТ "Модель прогнозирования стоимости жилья для агенства недвижимости"](https://github.com/CheshirSml/forecasting_the_cost_of_housing/blob/main/forecasting_the_cost_of_housing.ipynb)
+# [ДИПЛОМНЫЙ ПРОЕКТ "Модель прогнозирования стоимости жилья для агентства недвижимости"](https://github.com/CheshirSml/forecasting_the_cost_of_housing/blob/main/forecasting_the_cost_of_housing.ipynb)
 
 **Цель** - разработать модель, которая позволила бы агенству недвижимости обойти конкурентов по скорости и качеству сделок.  
 
