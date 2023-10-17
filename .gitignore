@@ -6,4 +6,6 @@ data/data_normolized.csv
 
 
 brif
+catboost_info
+images
 model_push.ipynb
